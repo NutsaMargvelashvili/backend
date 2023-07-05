@@ -31,6 +31,10 @@ io.on("connection", (socket)=>{
     })
 })
 
+app.get('/hello', (req, res) => {
+    res.send('Hello, World!');
+});
+
 server.listen(3001, () => {
     console.log('SERVER RUNNING');
 })
