@@ -10,7 +10,7 @@ const server = http.createServer(app)
 
 const io = new Server(server, {
     cors: {
-        origin: "http://nutsamargvelashvili.github.io/chat",
+        origin: "https://nutsamargvelashvili.github.io/chat",
         method: ["GET", "POST"]
     }
 })
